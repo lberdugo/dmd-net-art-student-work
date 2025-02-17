@@ -1,0 +1,76 @@
+ @import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap');
+
+
+
+body{ 
+  font-family: 'Annie Use Your Telescope', cursive;
+  width: 1440px;
+  margin: auto;
+  overflow: hidden;
+}
+
+#logo{
+z-index: 10;
+position: relative;
+bottom: 840px;
+left: 50px;
+}
+
+#botan{
+z-index: 10;
+position: relative;
+left: 610px;
+bottom: 800px;
+
+}
+
+#timeclothroot{
+z-index: 10;
+position: relative;
+left: 554px;
+bottom: 135px;
+}
+
+.clothblue{
+z-index: 10;
+position: relative;
+left: 200px;
+bottom: 500px;
+background: url(../img/timeclothblue.png)no-repeat;
+}
+
+.clothblue:hover{
+  z-index: 10;
+  position: relative;
+  left: 200px;
+  bottom: 500px;
+  background: url(../img/timeclothblue2.png)no-repeat;
+  }
+
+.clothred{
+z-index: 10;
+position: relative;
+left: 800px;
+bottom: 750px; 
+background: url(../img/timeclothred.png)no-repeat;   
+}
+
+.clothred:hover{
+  z-index: 10;
+  position: relative;
+  left: 800px;
+  bottom: 750px; 
+  background: url(../img/timeclothred2.png)no-repeat;   
+  }
+
+#backgroundimg{
+position: relative;
+z-index: -1;
+bottom: 750px;
+}
+
+a:link, a:visited{
+  color: black;
+  text-decoration: none;
+}
+
