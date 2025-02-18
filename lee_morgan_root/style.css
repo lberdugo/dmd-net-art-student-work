@@ -1,0 +1,241 @@
+#main{
+    background: rgb(176,128,255);
+    background: linear-gradient(0deg, rgba(176,128,255,1) 0%, rgba(128,146,255,1) 25%, rgba(93,255,99,1) 47%, rgba(233,252,23,1) 71%, rgba(255,66,66,1) 100%);
+}
+
+#trash{
+    text-align: center;
+    margin: 9%;
+    font-family: pragmatica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: rgb(243,244,255);
+    background: radial-gradient(circle, rgba(243,244,255,1) 25%, rgba(226,0,0,1) 100%);
+}
+
+#reply{
+    background: rgb(93,255,99);
+background: linear-gradient(0deg, rgba(93,255,99,1) 0%, rgba(59,239,217,1) 33%, rgba(251,44,255,1) 66%, rgba(138,72,255,1) 100%);
+}
+
+#replyall{
+    background: rgb(255,0,161);
+    background: linear-gradient(0deg, rgba(255,0,161,1) 0%, rgba(255,233,44,1) 50%, rgba(93,255,99,1) 100%);
+}
+
+#friends{
+    text-align: center;
+    padding-top: 9%;
+    font-family: pragmatica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image: url(popup.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #7300ff
+}
+
+#end{
+    text-align: center;
+    padding-top: 9%;
+    font-family: pragmatica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: rgb(243,244,255);
+    background: radial-gradient(circle, rgba(243,244,255,1) 43%, rgba(255,0,243,1) 100%);
+}
+
+
+.dou{
+    font-family: pragmatica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20pt;
+    color:#7300ff;
+}
+
+.cursed{
+    font-family: strumpf-std-open, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40pt;
+    color:black;
+}
+
+.tomorrow{
+    font-family: strumpf-std-open, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40pt;
+}
+
+/*buttons*/
+.buttons{
+    display: flex;
+    align-content: flex-end;
+    align-content: space-between;
+    float: right;
+    justify-content: space-between;
+    display: inline-block;
+    
+    padding: 5px 10px;
+    font-size: 15px;
+    text-align: center;
+    outline: none;
+    color: #fff;
+    background-color: #D4D4CD;
+    border-style: solid;
+    border-left-width: 2px;
+    border-left-color: #E6E6E2;
+    border-top-width: 2px;
+    border-top-color:#E6E6E2;
+    border-bottom-width: 2px;
+    border-bottom-color: #626266;
+    border-right-width: 2px;
+    border-right-color: #626266;
+    font-family: arial;
+    font-weight: 10;
+    font-style: normal;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30%;
+    padding: 20px;
+    position: relative;
+    left: 60%;
+}
+.buttons:active {background-color: #808080;
+}
+u{color:blue}
+a{text-decoration: none;}
+a:link{color: black;}
+a:visited{color: black;}
+.replyb{text-align:center}
+.yesno{padding: 5px 5px;
+    font-size: 15px;
+    text-align: center;
+    outline: none;
+    color: #fff;
+    background-color: #D4D4CD;
+    border-style: solid;
+    border-left-width: 2px;
+    border-left-color: #E6E6E2;
+    border-top-width: 2px;
+    border-top-color:#E6E6E2;
+    border-bottom-width: 2px;
+    border-bottom-color: #626266;
+    border-right-width: 2px;
+    border-right-color: #626266;
+    font-family: arial;
+    font-weight: 10;
+    font-style: normal;
+    display: flex;
+    align-content: space-between;
+    float: center;
+    display: inline-block;
+}
+.friendb{margin-left: auto;margin-right: auto}
+
+/*personal at the top*/
+.personal{
+    position:sticky;
+    top:0;
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: pragmatica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    width: 84.8%;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-color: black;
+    border-width: medium;
+}
+.personalback{
+    background-color: white;
+    padding-left: 30px;
+    padding-top: -5px;
+    color: black;
+}
+
+/*email message*/
+.email{
+    font-family: pragmatica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11pt;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 30px;
+    border-left-style: solid;
+    border-left-color: black;
+    border-left-width: medium;
+    border-right-style: solid;
+    border-right-color: black;
+    border-right-width: medium;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: medium;
+}
+.fifth{
+    width: 85%;
+    margin-left: 5%;
+    padding-left: 10px;
+}
+.fourth{
+    width:80%;
+    margin-left: 10%;
+    padding-left: 10px;
+}
+.third{
+    width:75%;
+    margin-left: 15%;
+    padding-left: 10px;
+}
+.second{
+    width:70%;
+    margin-left: 20%;
+    padding-left: 10px;
+}
+.first{
+    width:65%;
+    margin-left: 25%;
+    border-left-style: solid;
+    border-left-color: black;
+    border-left-width: thin;
+    padding-left: 10px;
+}
+.message{
+    font-family: sans-serif;
+    width:50%;
+}
+h3{font-size: 24pt}
+h2{font-size: 37}
+h1{font-size 30pt}
+#someone{color: #11ff00}
+#instructions{color:#00ffff}
+#joke{color: #ff40e5}
+#real{color:#ff0000}
+#decision{color:#00ffff}
+#seriously{color: #fbff00}
+#normally{}
+#january{color: #ff40e5}
+#chain{color:#ff0000}
+#send{color: #11ff00}
+#pass{color: #ff40e5}
+#tenmin{color:#00ffff}
+#hurry{color:#ff0000}
+#die{color: #ff40e5}
+#megan{color: #ff40e5}}
+#tay{color: #fbff00}
+#gunz{color:#7300ff}
+#life{color: #00ff7b}
+#crazy{color: #001eff}
